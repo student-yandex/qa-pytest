@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qa-pytest"
+version = "0.1.0"
+description = ""
+authors = ["Maxim Izergin <maxim.izergin@infoss.no>"]
+readme = "README.md"
+packages = [{include = "qa_pytest"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.1"
+coverage = "^7.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
